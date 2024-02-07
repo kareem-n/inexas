@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./src/style/output.css" />
+    <link rel="stylesheet" href="./src/style/all.min.css" />
+    <title>Inexas</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="fixed top-0 transition-all z-50 w-full">
+      <div class="container flex items-center justify-between py-3 mx-auto">
+        <!-- NAV LOGO -->
+        <div class="logo flex items-center">
+          <div
+            class="md:hidden select-none transition-all toggle cursor-pointer mr-3 mt-1"
+          >
+            <i class="fas text-xl fa-bars"></i>
+          </div>
+          <a
+            class="flex border-opacity-20 transition-all items-center"
+            href="../../index.html"
+          >
+            <img class="mr-3" src="./src/images/logo.png" alt="" />
+            <span class="rubik-font text-2xl">Inexas.</span>
+          </a>
+        </div>
+        <!-- NAV ITEMS -->
+        <ul class="nav-items hidden md:flex items-center">
+          <li class="px-1">
+            <a class="block text-white px-3 py-2" href="#home">Home</a>
+          </li>
+          <li class="px-1">
+            <a
+              class="block text-gray-400 hover:text-gray-200 px-3 py-2"
+              href="#products"
+              >Products</a
+            >
+          </li>
+          <li class="px-1">
+            <a
+              class="block text-gray-400 hover:text-gray-200 px-3 py-2"
+              href="#features"
+              >Features</a
+            >
+          </li>
+          <li class="px-1">
+            <a
+              class="block text-gray-400 hover:text-gray-200 px-3 py-2"
+              href="#pricing"
+              >Pricing</a
+            >
+          </li>
+          <li class="px-1">
+            <a
+              class="block text-gray-400 hover:text-gray-200 px-3 py-2"
+              href="#faqs"
+              >FAQ'S</a
+            >
+          </li>
+        </ul>
+        <!-- get the app btn -->
+        <div>
+          <a
+            class="block clickBtnAnimation animate__animated transition-all theme-bg-color rounded-md px-4 md:px-8 py-2"
+            href="#"
+          >
+            Get the App
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="smToggle hidden bg-black bg-opacity-90 fixed inset-0 z-40">
+      <div
+        class="flex opacity-80 justify-center gap-x-5 py-5 w-full absolute bottom-0"
+      >
+        <i class="fab text-xl fa-facebook"></i>
+        <i class="fab text-xl fa-youtube"></i>
+        <i class="fab text-xl fa-twitter"></i>
+      </div>
+    </div>
+
+    <header
+      class="min-h-screen relative z-10 flex justify-center items-center mx-auto"
+    >
+      <div
+        class="holo hidden lg:block absolute z-0 left-1/2 top-10 -translate-x-1/2 rounded-full"
+      ></div>
+
+      <div
+        class="container animate__animated animate__bounce relative flex justify-center z-10"
+      >
+        <div class="md:text-center">
+          <h4 class="uppercase opacity-90 theme-text-color md:text-xl">
+            strategies for success
+          </h4>
+          <h2 class="text-3xl pointer-events-none md:text-7xl font-bold mt-2">
+            Enhance Customer Engagement.
+          </h2>
+          <h3 class="mt-4 pointer-events-none text-gray-400 md:text-lg">
+            Boost Customer engagement to strengthen relationships and
+            <br class="hidden md:block" />
+            drive loyalty in improved business success.
+          </h3>
+          <div class="mt-8">
+            <a
+              href="#"
+              class="theme-bg-color inline-block border theme-border-color clickBtnAnimation animate__animated opacity-80 hover:opacity-100 rounded-md px-6 py-3"
+              >Explore Products</a
+            >
+            <a
+              href="#"
+              class="hidden md:inline-block clickBtnAnimation animate__animated border theme-text-color opacity-80 hover:opacity-100 theme-border-color ml-3 rounded-md px-6 py-3"
+            >
+              Get the App
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--  -->
+
+    <section class="min-h-screen flex items-center relative overflow-x-hidden">
+      <div class="absolute blur-lg md:blur-md -right-32 -top-24">
+        <img style="width: 350px" src="./src/images/asset-1.png" alt="" />
+      </div>
+      <div class="container mx-auto">
+        <div class="text-center relative">
+          <h2 class="uppercase text-lg theme-text-color">features</h2>
+          <h3 class="text-3xl md:text-4xl mt-2">Our Solutions</h3>
+          <p class="mt-3 text-gray-300">
+            Boost Customer engagement to strengthen relationships and
+            <br class="hidden md:block" />
+            drive loyalty in improved business success.
+          </p>
+        </div>
+        <div class="mt-10 flex flex-wrap gap-y-3 md:gap-y-0">
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 selected lin-feat-bg relative px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-blue flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat1.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Expand Your Reach</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 lin-feat-bg relative selected px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-red flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat-2.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Higher Annualized</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 selected lin-feat-bg relative px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-green flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat-3.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Expand Your Reach</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy. A complete about-face
+                in its core economy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 selected lin-feat-bg relative px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-yellow flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat-4.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Expand Your Reach</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 selected lin-feat-bg relative px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-viol flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat-5.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Higher Annualized</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 lg:w-1/3 selected lin-feat-bg relative px-4 py-6"
+          >
+            <div
+              style="width: 40px; height: 40px"
+              class="rounded-full shadow-red flex items-center justify-center"
+            >
+              <img class="p-1" src="./src/images/feat-6.svg" alt="" />
+            </div>
+            <div class="mt-4">
+              <h4 class="text-xl">Expand Your Reach</h4>
+              <p class="text-gray-400 mt-3">
+                A complete about-face in its core economy. A complete about-face
+                in its core economy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mt-24 md:mt-0 mx-auto bg-gray-900 md:bg-transparent"
+      >
+        <div class="flex flex-wrap items-center justify-center">
+          <div class="p-16 sponsers w-1/2 md:w-1/3 lg:w-1/5 relative">
+            <img
+              src="./src/images/sponser/GL.png"
+              class="w-full contrast-0"
+              alt="google logo"
+            />
+          </div>
+          <div
+            class="p-10 w-1/2 md:w-1/3 lg:w-1/5 flex items-center justify-center sponsers relative"
+          >
+            <img
+              src="./src/images/sponser/Apple.png"
+              class="w-full contrast-0"
+              alt="google logo"
+            />
+          </div>
+          <div
+            class="p-10 w-1/2 md:w-1/3 lg:w-1/5 flex items-center justify-center sponsers relative"
+          >
+            <img
+              src="./src/images/sponser/aiwa.png"
+              class="w-full contrast-0"
+              alt="google logo"
+            />
+          </div>
+          <div
+            class="p-10 w-1/2 md:w-1/3 lg:w-1/5 flex items-center justify-center sponsers relative"
+          >
+            <img
+              src="./src/images/sponser/amazon.png"
+              class="w-full contrast-0"
+              alt="google logo"
+            />
+          </div>
+          <div
+            class="p-10 w-1/2 md:w-1/3 lg:w-1/5 flex items-center justify-center sponsers relative"
+          >
+            <img
+              src="./src/images/sponser/hi.png"
+              class="w-full contrast-0"
+              alt="google logo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 sticky top-0">
+      <div class="container mx-auto px-5 md:px-0">
+        <div class="flex flex-wrap items-center justify-between">
+          <div class="w-full lg:w-2/5">
+            <h2
+              class="uppercase text-center md:text-left text-lg theme-text-color"
+            >
+              Features
+            </h2>
+            <h3 class="py-4 text-center md:text-left text-4xl font-bold">
+              Why Choose Us?
+            </h3>
+            <div class="flex mt-4">
+              <i class="fa-regular fa-2x theme-text-color fa-circle-check"></i>
+              <div class="ml-3">
+                <h4 class="text-2xl font-bold">Information Security</h4>
+                <p class="text-gray-300 mt-1">
+                  Secures data transmission and storage by converting it into a
+                  coded format.
+                </p>
+              </div>
+            </div>
+            <div class="flex mt-6">
+              <i class="fa-regular fa-2x theme-text-color fa-circle-check"></i>
+              <div class="ml-3">
+                <h4 class="text-2xl font-bold">Performance</h4>
+                <p class="text-gray-300 mt-1">
+                  Streamlines interactions, organizes customer data, and
+                  improves customer satisfaction.
+                </p>
+              </div>
+            </div>
+            <div class="flex mt-6">
+              <i class="fa-regular fa-2x theme-text-color fa-circle-check"></i>
+              <div class="ml-3">
+                <h4 class="text-2xl font-bold">Hot Support</h4>
+                <p class="text-gray-300 mt-1">
+                  Provides insights through data analysis, aiding informed
+                  decision-making Allows app functionality without an internet
+                  connection .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full featureSectionImg mt-10 md:mt-0 relative lg:w-1/2">
+            <img src="./src/images/features.png" class="" alt="" />
+            <div
+              class="bg-black border-white border border-opacity-25 backdrop-blur-lg bg-opacity-40 py-6 md:pl-10 pl-4 pr-20 md:pr-24 -mt-16 md:mt-0 rounded-xl shadow-xl absolute top-2/3 left-0 md:left-5"
+            >
+              <i
+                class="fas px-2 py-2 theme-bg-color-50 rounded-lg block text-2xl fa-folder-plus"
+              ></i>
+              <h5 class="text-gray-300 text-lg mt-5">Bonus Rate</h5>
+              <p class="text-2xl theme-text-color font-bold">28.6%</p>
+              <p class="text-red-500 mt-3">-16%</p>
+            </div>
+            <!--  -->
+            <div
+              class="hidden border-white border border-opacity-25 absolute text-sm md:flex items-center rounded-xl shadow-xl bg-black backdrop-blur-lg bg-opacity-40 top-1/2 md:mt-0 -mt-5 px-5 lg:px-10 py-3"
+            >
+              <i
+                class="fa-solid py-2 px-2 theme-bg-color-50 rounded-lg text-2xl fa-arrows-spin"
+              ></i>
+              <p class="ml-3">
+                Payment CountDown
+                <br />
+                <span class="text-gray-300"> 3 day(s) until yours </span>
+              </p>
+            </div>
+            <!--  -->
+            <div
+              class="rounded-xl border border-white border-opacity-25 shadow-xl bg-black backdrop-blur-lg bg-opacity-40 p-10 absolute w-3/5 top-0 right-10"
+            >
+              <img src="./src/images/chart.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-bg-color relative overflow-hidden">
+      <div class="blur-xl absolute -left-20 -top-24">
+        <img style="width: 300px" src="./src/images/asset-1.png" alt="" />
+      </div>
+      <div style="min-height: 100vh" class="container py-16 mx-auto h-full">
+        <div class="text-center">
+          <h4 class="text-lg theme-text-color uppercase">flexible</h4>
+          <h2 class="text-xl md:text-4xl mt-2">Rate Plan</h2>
+          <p class="md:w-1/2 text-gray-300 mx-auto mt-3">
+            Explore our diverse range of rate plans designed to meet your unique
+            needs. providing flexibility, savings, and value.
+          </p>
+        </div>
+        <div class="grid grid-cols-6 mt-10 gap-y-5 lg:gap-y-0 md:gap-x-5">
+          <div
+            class="col-span-6 md:col-span-3 lg:col-span-2 text-gray-300 bg-gray-950 border border-gray-700 rounded-xl px-10 py-7"
+          >
+            <div class="border-b pb-5 border-gray-700">
+              <h3 class="text-2xl uppercase">basic</h3>
+              <p class="text-4xl text-white mt-2">$56.99</p>
+              <p class="mt-2 text-xl">Yearly</p>
+            </div>
+            <div class="mt-5">
+              <h4 class="text-xl">Great job, small work</h4>
+              <ul class="mt-3 text-slate-300">
+                <li>
+                  <i class="fas mr-3 fa-check"></i>
+                  SO GB Bandwidth
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  Business Finance Analysis
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-xmark"></i>
+                  24 hour support
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-xmark"></i>
+                  Customer Management
+                </li>
+              </ul>
+              <button
+                class="border transition-all btnHover border-gray-700 mt-5 py-4 rounded-lg uppercase w-full"
+              >
+                choose plan
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-span-6 md:col-span-3 lg:col-span-2 text-gray-300 bg-gray-900 border theme-border-color rounded-xl px-10 py-7"
+          >
+            <div class="border-b pb-5 border-gray-700">
+              <h3 class="text-2xl uppercase">standard</h3>
+              <p class="text-4xl text-white theme-text-color mt-2">$76.99</p>
+              <p class="mt-2 text-xl">Yearly</p>
+            </div>
+            <div class="mt-5">
+              <h4 class="text-xl">TO Meet job Benefits</h4>
+              <ul class="mt-3 text-slate-300">
+                <li>
+                  <i class="fas mr-3 fa-check"></i>
+                  SO GB Bandwidth
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  Business Finance Analysis
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  24 hour support
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  Customer Management
+                </li>
+              </ul>
+              <button
+                class="border transition-all btnHover border-gray-700 theme-bg-color mt-5 py-4 rounded-lg uppercase w-full"
+              >
+                choose plan
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-span-6 md:col-span-3 lg:col-span-2 text-gray-300 bg-gray-950 border border-gray-700 rounded-xl px-10 py-7"
+          >
+            <div class="border-b pb-5 border-gray-700">
+              <h3 class="text-2xl uppercase">premium</h3>
+              <p class="text-4xl text-white mt-2">$19.99</p>
+              <p class="mt-2 text-xl">Monthly</p>
+            </div>
+            <div class="mt-5">
+              <h4 class="text-xl">Great job, small work</h4>
+              <ul class="mt-3 text-slate-300">
+                <li>
+                  <i class="fas mr-3 fa-check"></i>
+                  SO GB Bandwidth
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  Business Finance Analysis
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  24 hour support
+                </li>
+                <li class="mt-2">
+                  <i class="fas mr-3 fa-check"></i>
+                  Customer Management
+                </li>
+              </ul>
+              <button
+                class="border transition-all btnHover border-gray-700 mt-5 py-4 rounded-lg uppercase w-full"
+              >
+                choose plan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-bg-color relative">
+      <div
+        class="container py-8 relative stat mx-auto grid items-center grid-cols-8 gap-y-8 lg:gap-y-0"
+      >
+        <div
+          class="col-span-8 md:col-span-4 lg:col-span-2 text-4xl text-center lg:text-left"
+        >
+          +1027 Experts Endorse SaaS product.
+        </div>
+        <div class="col-span-4 text-center lg:col-span-2">
+          <h3 class="text-6xl">90%</h3>
+          <p class="text-2xl text-gray-400 mt-3">Promotions</p>
+        </div>
+        <div class="col-span-4 lg:col-span-2 text-center">
+          <h3 class="text-6xl">75%</h3>
+          <p class="text-2xl text-gray-400 mt-3">Feedback</p>
+        </div>
+        <div class="col-span-4 lg:col-span-2 text-center">
+          <h3 class="text-6xl">86%</h3>
+          <p class="text-2xl text-gray-400 mt-3">Improvement</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-bg-color py-24 relative">
+      <div class="container mx-auto">
+        <div class="text-center text-3xl">
+          <h4 class="text-lg theme-text-color uppercase">who is us?</h4>
+          <h2 class="text-xl md:text-4xl mt-2">Meet the team</h2>
+        </div>
+        <div class="mt-20 flex justify-center md:gap-x-10">
+          <div
+            class="teamSectionItem transition-all rounded-full overflow-hidden translate-y-16"
+          >
+            <img
+              src="./src/images/team/2.jpg"
+              class="w-full h-full object-cover transition-all"
+              alt=""
+            />
+          </div>
+          <div
+            class="teamSectionItem transition-all rounded-full overflow-hidden"
+          >
+            <img
+              src="./src/images/team/3.jpg"
+              class="w-full h-full object-cover transition-all"
+              alt=""
+            />
+          </div>
+          <div
+            class="teamSectionItem transition-all rounded-full overflow-hidden translate-y-16"
+          >
+            <img
+              src="./src/images/team/4.jpg"
+              class="w-full h-full object-cover transition-all"
+              alt=""
+            />
+          </div>
+          <div
+            class="teamSectionItem transition-all rounded-full overflow-hidden"
+          >
+            <img
+              src="./src/images/team/1.jpg"
+              class="w-full h-full object-cover transition-all"
+              alt=""
+            />
+          </div>
+          <div
+            class="teamSectionItem transition-all rounded-full overflow-hidden translate-y-16"
+          >
+            <img
+              src="./src/images/team/5.jpg"
+              class="w-full h-full object-cover transition-all"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="relative main-bg-color py-24">
+      <div class="container mx-auto py-10">
+        <div class="text-center">
+          <h4 class="text-lg theme-text-color uppercase">get in touch</h4>
+          <h2 class="text-xl md:text-4xl mt-2 text-gray-400 font-extrabold">
+            Contact Us
+          </h2>
+        </div>
+
+        <div
+          class="flex flex-wrap md:flex-nowrap gap-y-8 md:gap-y-0 items-center mt-10 md:gap-x-5"
+        >
+          <div class="w-full md:w-1/2 flex flex-col gap-y-5">
+            <div
+              class="flex items-center justify-between px-6 py-3 rounded-xl card-shadow border border-gray-500"
+            >
+              <div class="flex items-center gap-x-3">
+                <img
+                  style="width: 50px"
+                  src="./src/images/phoneasset.svg"
+                  alt=""
+                />
+                +1 212 456 7890
+              </div>
+              <img
+                title="copy"
+                class="cursor-pointer"
+                style="width: 25px"
+                src="./src/images/copy.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between px-6 py-3 rounded-xl border border-gray-500 card-shadow"
+            >
+              <div class="flex items-center gap-x-3">
+                <img
+                  style="width: 43px"
+                  src="./src/images/faxasset.svg"
+                  alt=""
+                />
+                (123)-456-7890
+              </div>
+              <img
+                title="copy"
+                class="cursor-pointer"
+                style="width: 25px"
+                src="./src/images/copy.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between px-6 py-3 rounded-xl border border-gray-500 card-shadow"
+            >
+              <div class="flex items-center gap-x-3">
+                <img
+                  style="width: 43px"
+                  src="./src/images/mailasset.svg"
+                  alt=""
+                />
+                company.info@company.com
+              </div>
+              <img
+                title="copy"
+                class="cursor-pointer"
+                style="width: 25px"
+                src="./src/images/copy.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between px-6 py-3 rounded-xl border border-gray-500 card-shadow"
+            >
+              <div class="flex items-center gap-x-3">
+                <img
+                  style="width: 43px"
+                  src="./src/images/locationasset.svg"
+                  alt=""
+                />
+                California - San Luis Obispo - 2020 Euclid Avenue
+              </div>
+              <img
+                title="copy"
+                class="cursor-pointer"
+                style="width: 25px"
+                src="./src/images/copy.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 md:px-20">
+            <div class="relative bg-slate-900">
+              <label
+                class="absolute transition-all top-1/2 mx-5 -translate-y-1/2 left-0 text-gray-500"
+                for=""
+                >Name</label
+              >
+              <input
+                class="w-full relative border rounded-md border-white border-opacity-50 contactInput px-5 pb-2 pt-4 text-gray-400 bg-transparent outline-none"
+                type="text"
+              />
+            </div>
+            <div class="relative bg-slate-900 mt-5">
+              <label
+                class="absolute transition-all top-1/2 mx-5 -translate-y-1/2 left-0 text-gray-500"
+                for=""
+                >Email Address</label
+              >
+              <input
+                class="w-full relative border rounded-md border-white border-opacity-50 contactInput px-5 pb-2 pt-4 text-gray-400 bg-transparent outline-none"
+                type="text"
+              />
+            </div>
+            <div class="relative bg-slate-900 mt-5">
+              <label
+                class="absolute transition-all top-2 mx-5 left-0 text-gray-500"
+                for=""
+                >Message</label
+              >
+              <textarea
+                rows="4"
+                class="w-full relative border rounded-md border-white border-opacity-50 contactInput px-5 pb-2 pt-4 text-gray-400 bg-transparent outline-none"
+                type="text"
+              ></textarea>
+            </div>
+            <div class="mt-7">
+              <button
+                class="theme-bg-color opacity-85 hover:opacity-100 px-8 py-3 rounded-lg flex items-center gap-x-3"
+              >
+                Message Us
+                <img style="width: 25px" src="./src/images/send.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-16 bg-black relative">
+      <div class="container flex-wrap mx-auto gap-y-8 md:gap-y-0 flex items-center justify-between">
+        <div class="w-full flex flex-col items-center">
+          <div class="flex items-center gap-x-5 text-3xl">
+            <img src="./src/images/logo.png" style="width: 50px" alt="" />
+            <span class="rubik-font">Inexas. </span>
+          </div>
+          <p class="mt-5 text-gray-400 text-xl">One APP provide many Services.</p>
+        </div>
+
+        <div class="flex gap-x-10">
+          <div class="">
+            <h3 class="theme-text-color text-2xl">other pages</h3>
+            <ul class="flex flex-col gap-2 mt-3">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Product</a>
+              </li>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+              <li>
+                <a href="">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h3 class="theme-text-color text-2xl">Quick Links</h3>
+            <ul class="flex flex-col gap-2 mt-3">
+              <li>
+                <a href="">FAQs</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Security</a>
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h3 class="theme-text-color text-2xl">Social Media</h3>
+            <p class="my-3 text-gray-300">
+              Our support and sales team are always <br />
+              ready to response on 24/7 <br />to answer your queries.
+            </p>
+            <div class="flex items-center gap-x-5">
+              <a class="">
+                <img
+                  style="width: 40px"
+                  src="./src/images/facebook.svg"
+                  alt=""
+                />
+              </a>
+              <a class="">
+                <img
+                  style="width: 40px"
+                  src="./src/images/youtube.svg"
+                  alt=""
+                />
+              </a>
+              <a class="">
+                <img style="width: 40px" src="./src/images/twittr.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
